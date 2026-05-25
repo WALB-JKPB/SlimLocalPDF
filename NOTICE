@@ -1,0 +1,29 @@
+SlimLocalPDF
+Copyright (c) 2026 SlimLocalPDF contributors
+
+SlimLocalPDF is distributed under the GNU Affero General Public License v3.0
+or later. See the LICENSE file for the full license text.
+
+This project includes and distributes Ghostscript/GhostPDL WebAssembly files:
+
+- public/vendor/ghostpdl/gs.js
+- public/vendor/ghostpdl/gs.wasm
+
+Those files are provided through the @okathira/ghostpdl-wasm package, which is
+licensed under AGPL-3.0-or-later. The package source is available at:
+
+https://github.com/okathira/ghostpdl-wasm
+
+Ghostscript/GhostPDL is developed by Artifex Software. Ghostscript licensing
+information is available at:
+
+https://www.ghostscript.com/licensing/
+
+Other major third-party libraries used by this project include:
+
+- pdf-lib: MIT
+- pdfcpu-wasm: MIT package wrapper; pdfcpu upstream is Apache-2.0
+- browser-image-compression: MIT
+- shadcn/ui components: MIT
+
+See package metadata for additional third-party notices.
